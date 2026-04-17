@@ -20,8 +20,6 @@ All primary scripts and notebooks required to reproduce this research are locate
 * **`Code/main_nb_1.ipynb`**: The primary experiment pipeline. This notebook executes the Walk-Forward Optimization (WFO), trains the deep learning models across the ablation grid, generates predictions, and runs the downstream portfolio backtests.
 * **`Code/covariance_tests.ipynb`**: Contains the empirical diagnostics and visualizations for the Spectral Covariance Score ($S_A$), proving the stability of the eigenvector subspace and the volatility of the absolute market energy scale.
 
-*(Note: Raw data, cached features, and heavy model weights are excluded from this repository to respect GitHub size limits.)*
-
 ---
 
 ## Installation & Setup
@@ -33,13 +31,13 @@ It is highly recommended to run this project inside an isolated Python virtual e
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
-```bash
+```
 
 **On macOS/Linux:**
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-```bash
+```
 
 **Install Dependencies**
 
@@ -47,7 +45,7 @@ Once your virtual environment is activated, install the required packages:
 
 ```bash
 pip install -r requirements.txt
-```bash
+```
 
 3. MOSEK License Configuration (Crucial)
 The downstream Mean-Variance portfolio optimization heavily relies on the MOSEK solver via CVXPY to handle the quadratic risk penalties efficiently. MOSEK requires a valid license to run.

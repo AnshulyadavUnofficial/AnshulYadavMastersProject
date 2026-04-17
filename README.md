@@ -33,17 +33,21 @@ It is highly recommended to run this project inside an isolated Python virtual e
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
+```bash
 
 **On macOS/Linux:**
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+```bash
 
 **Install Dependencies**
 
 Once your virtual environment is activated, install the required packages:
 
+```bash
 pip install -r requirements.txt
+```bash
 
 3. MOSEK License Configuration (Crucial)
 The downstream Mean-Variance portfolio optimization heavily relies on the MOSEK solver via CVXPY to handle the quadratic risk penalties efficiently. MOSEK requires a valid license to run.

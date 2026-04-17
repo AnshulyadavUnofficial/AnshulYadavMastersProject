@@ -51,6 +51,6 @@ pip install -r requirements.txt
 
 The downstream Mean-Variance portfolio optimization heavily relies on the MOSEK solver via CVXPY to handle the quadratic risk penalties efficiently. MOSEK requires a valid license to run.
 
-Acquire a License: If you are a student or faculty member, you can obtain a free Personal Academic License from the MOSEK website here: MOSEK Academic Licenses. (model.com)
+Acquire a License: If you are a student or faculty member, you can obtain a free Personal Academic License from the MOSEK website here: MOSEK Academic Licenses. (mosek.com)
 
 Install the License: Once you receive the mosek.lic file via email, you must place it in the default MOSEK directory on your machine

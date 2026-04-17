@@ -24,7 +24,7 @@ All primary scripts and notebooks required to reproduce this research are locate
 
 ## Installation & Setup
 
-### 1. Create a Virtual Environment
+###  Create a Virtual Environment
 It is highly recommended to run this project inside an isolated Python virtual environment.
 
 **On Windows:**
@@ -47,7 +47,7 @@ Once your virtual environment is activated, install the required packages:
 pip install -r requirements.txt
 ```
 
-3. MOSEK License Configuration (Crucial)
+**MOSEK License Configuration (Crucial)**
 The downstream Mean-Variance portfolio optimization heavily relies on the MOSEK solver via CVXPY to handle the quadratic risk penalties efficiently. MOSEK requires a valid license to run.
 
 Acquire a License: If you are a student or faculty member, you can obtain a free Personal Academic License from the MOSEK website here: MOSEK Academic Licenses.

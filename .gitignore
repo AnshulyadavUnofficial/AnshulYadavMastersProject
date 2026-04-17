@@ -1,0 +1,20 @@
+# Environments and Documentation
+.venv/
+Latex/
+
+# Copyrighted Material
+Papers/
+
+# Model Weights and Large Binaries (Keep these blocked to save space!)
+Models/
+FinalModels/
+
+# Python & Jupyter Hidden Files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# temp files
+temp.ipynb
+# OS Hidden Files
+.DS_Store
